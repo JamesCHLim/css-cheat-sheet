@@ -3,4 +3,4 @@ A basic CSS cheatsheet I created in html, as part of a codecademy challenge cour
 
 Here is what the final output looks like
 
-![cheatsheet](docs/screenshot.jpg)
+![cheatsheet](docs/screenshot.png)
