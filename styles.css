@@ -12,26 +12,24 @@ h1, h3 {
 }
 
 h2 {
-  color: Cornflowerblue
+  color: Cornflowerblue;
+  font-size: 2rem;
 }
 
 table {
     color: dimgray;
     background-color: white;
+    width: 80%;
+    margin-left: 10%;
 }
 
 td {
     border: 1px solid Darkblue;
-    padding: 2px;
+    padding: 20px;
 }
 
-thead, .rowhead {
-    font-weight: bold;
-    color: azure;
-}
-
-.monofont {
-    font-family: Lucida Console;
+td:nth-child(1), td:nth-child(2) {
+    width: 20%;
 }
 
 .rowhead {
@@ -41,6 +39,15 @@ thead, .rowhead {
 
 thead {
     background-color: Darkblue;
+}
+
+thead, .rowhead {
+    font-weight: bold;
+    color: azure;
+}
+
+.monofont {
+    font-family: Lucida Console;
 }
 
 a {
