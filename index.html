@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='styles.css' type='text/css'>
+
+    </head>
+    <body>
+        <header>
+            <h1>Common CSS Stylings</h1>
+            <h3>By James C.H. Lim</h3>
+        </header>
+
+        <main>
+            <section>
+                <h2>Common Properties</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Property</td>
+                            <td>Used by</td>
+                            <td>Description</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class='rowhead'>font-weight</td>
+                            <td>strings of class, id or attribute</td>
+                            <td>
+Takes a value of 1-1000, or 'bold', 'bolder', 'lighter', 'normal', 'initial' or
+'inherit'. Changes the thickness of the font line. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='rowhead'>font-family</td>
+                            <td>strings of class, id or attribute</td>
+                            <td>
+Changes the font character set to any font installed on the computer, or if
+linked to a google font, any font available on their repository.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='rowhead'>text-size</td>
+                            <td>strings of class, id or attribute</td>
+                            <td>
+Controls the size of the text, accepting normal size variables in pixels, rem and em.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='rowhead'>color and background-color</td>
+                            <td>
+Colors: strings of class, id or attribute<br>
+background-color: applies to all enclosed element
+                            </td>
+                            <td>
+color changes the color of the font to accepted values of hex, #ffffff, 147
+named specified colors, eg. black, azure, limegreen or an rgb function, eg.
+rgb(256,256,256) or rgba(256,256,256,0.5), where the final value of rgba
+controls opacity.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='rowhead'>text-align</td>
+                            <td>strings of class, id or attribute</td>
+                            <td>
+Aligns the text in child elements of a enclosed element to left, center or
+right of the parent element.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='rowhead'>padding and margin</td>
+                            <td>All child elements</td>
+                            <td>
+Padding seperates the content of the element to the space the element takes up,
+this is useful when using borders or a background images to easily seperate
+text from its surroundings.<br><br>
+Margins on the other hand, seperates the space the element takes up from
+surrounding elements. This distances can be used to distinguish an element from
+surrounding elements.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='rowhead'>display</td>
+                            <td>All child elements</td>
+                            <td>
+Changes the way that elements are orders on the page. Default display is block, which makes each element take up its own row on the page. The other options are inline, which makes each element try to be inline when possible, and inline-block, a version of inline which allows greater flexibility and respect of margins and paddings.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+          <br><br>
+          
+            <section>
+                <h2>Common Values</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Value</td>
+                            <td>Used by</td>
+                            <td>Description</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class='rowhead'>1rem, 16px, 1em</td>
+                            <td>Padding and margin, text-size</td>
+                            <td>
+1rem is equivalent to 16 pixels, and is more easily adaptable to the changing
+fonts of a browser. To be more specific, one can use pixels (px). Finally,
+there is em, which sizes based on the default size of the parent element
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='rowhead'>black, #123abc, rgb(256,256,256)</td>
+                            <td>color and background-color</td>
+                            <td>
+There are value examples which color and background-color can parse. 147 named
+values found <a href='http://www.colors.commutercreative.com/grid/' target='_blank'>here</a>,
+and a rgb function which is equivalent to hex. A new function that has emerged
+is rgba, which has a fourth value of 0-1 which controls the opacity.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='rowhead'>inline, block, inline-block</td>
+                            <td>display</td>
+                            <td>
+Changes the display type of elements. Block means each element occupies it's own space while inline means elements will fit inline horizontally when possible. Inline-block is similar to inline except it allows the setting of margins and paddings, and respects height and width.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='rowhead'>left, right, center</td>
+                            <td>text-align</td>
+                            <td>
+Aligns text of a child element in proportion to its parent element or its
+default settings.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+    </body>
+</html>

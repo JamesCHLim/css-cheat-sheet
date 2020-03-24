@@ -1,0 +1,48 @@
+body {
+    font-family: Helvetica;
+    display: inline-block;
+    text-align: center;
+    margin: 1.5rem;
+    margin-bottom: 2.5rem;
+    background-color: Snow;
+}
+
+h1, h3 {
+  color: dimgray;
+}
+
+h2 {
+  color: Cornflowerblue
+}
+
+table {
+    color: dimgray;
+    background-color: white;
+}
+
+td {
+    border: 1px solid Darkblue;
+    padding: 2px;
+}
+
+thead, .rowhead {
+    font-weight: bold;
+    color: azure;
+}
+
+.monofont {
+    font-family: Lucida Console;
+}
+
+.rowhead {
+    background-color: Cornflowerblue;
+    font-style: italic;
+}
+
+thead {
+    background-color: Darkblue;
+}
+
+a {
+    color: Darkcyan;
+}
